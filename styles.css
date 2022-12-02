@@ -95,16 +95,33 @@ a:hover {
     display:flex;
     flex-direction: row;
     align-items: center;
+    margin: 25px 35px;
 }
 
 .adv-left {
-    width: 200px;
+    width: 182.4px;
 }
 
 .adv-center {
-    width: 385px;
+    width: 572px;
 }
 
 .adv-right {
-    width: 800px;
+    width: 175px;
+}
+
+.adv-bar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    
+}
+
+.adv-line {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+}
+
+#adv-img {
+    margin: 10px;
 }
