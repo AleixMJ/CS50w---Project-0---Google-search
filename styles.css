@@ -5,6 +5,7 @@ body {
 .navbar {
     text-align: right;
     margin: 20px;
+    font-family: sans-serif;
 }
 
 .navbar a {
@@ -23,6 +24,12 @@ body {
 
 }
 
+.center {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+}
 .bar {
     
     display: flex;
@@ -40,6 +47,24 @@ body {
     
 }
 
+.btn {
+
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
 
 a {
     color:black;
@@ -48,4 +73,8 @@ a {
 
 a:hover {
     text-decoration:underline;
+}
+
+.btn:hover {
+    border-color: rgb(234, 229, 229);
 }
