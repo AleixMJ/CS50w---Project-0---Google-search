@@ -78,3 +78,33 @@ a:hover {
 .btn:hover {
     border-color: rgb(234, 229, 229);
 }
+
+.adv-input  {
+
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adv-left {
+    width: 200px;
+}
+
+.adv-center {
+    width: 385px;
+}
+
+.adv-right {
+    width: 800px;
+}
