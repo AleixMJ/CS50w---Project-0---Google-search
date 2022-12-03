@@ -1,11 +1,12 @@
 body {
     font-size: large;
+    font-family: sans-serif;
 }
 
 .navbar {
     text-align: right;
     margin: 20px;
-    font-family: sans-serif;
+    
 }
 
 .navbar a {
@@ -81,16 +82,18 @@ a:hover {
 
 .adv-input  {
 
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
+    width: 100%;
+    text-align: left;
     border-radius: 1px;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
-    padding: 1px 8px;
-    width: 572px;
+    width: 536px;
+    padding: 1px 8px;    
 }
+
+
 
 .row {
     display:flex;
@@ -99,19 +102,58 @@ a:hover {
     margin: 25px 35px;
 }
 
-.adv-left {
-    width: 182.4px;
+.adv-left {    
+    text-align: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
 }
 
 .adv-center {
-    width: 100%;
     text-align: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+    
 }
 
 .adv-right {
-    width: 175px;
+    text-align: left;
+    display: inline-block;
+    width: 15%;
+    min-width: 160px;
+    margin-left: 10px;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+
 }
 
+.adv-div-btn {
+    text-align: right;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+span {
+
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+
+}
 .adv-bar {
     color: #d93025;
     font-size: 20px;
@@ -142,4 +184,9 @@ a:hover {
     border: 1px solid #3079ed;
     color: #fff;
 
+}
+
+.body-adv {
+    min-height: 100%;
+    margin: 0 auto -60px;
 }

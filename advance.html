@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="styles.css">
         <title>Search</title>
     </head>
-    <body>
+    <body class="body-adv">
                 
                 <img id="adv-img" src="advance.svg" alt="Google Icon" height="24">
                 <div class="adv-bar">
@@ -12,58 +12,68 @@
                 </div>
                 <div class="adv-line"></div>
 
-                <form action="https://google.com/search">
-                    <div class="row">
-                        <div class="adv-left">
-                            all these words:
-                        </div>
-                        <div class="adv-center">
-                            <input class="adv-input" type="text" name="as_q">
-                        </div>
-                        <div class="adv-right">
-                            Type the important words: tri-colour rat terrier
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="adv-left">
-                            this exact word or phrase:
-                        </div>
-                        <div class="adv-center">
-                            <input class="adv-input" type="text" name="as_epq">
-                        </div>
-                        <div class="adv-right">
-                            Put exact words in quotes: "rat terrier"
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="adv-left">
-                            any of these words:
-                        </div>
-                        <div class="adv-center">
-                            <input class="adv-input" type="text" name="as_oq">
-                        </div>
-                        <div class="adv-right">
-                            Type OR between all the words you want: miniature OR standard
-                        </div>
-                    </div>
-                    <div class="row">  
-                        <div class="adv-left">
-                            none of these words:
-                        </div>
-                        <div class="adv-center">
-                            <input class="adv-input" type="text" name="as_eq">
-                        </div>
-                        <div class="adv-right">
-                            Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
-                        </div> 
-                    </div>                                 
 
-                         
-                           
-                    <input id="adv-btn" type="submit" value="Advanced Search">
-  
+                    <form action="https://google.com/search">
+                        <div class="row">
+                            <div class="adv-left">
+                                all these words:
+                            </div>
+                            <div class="adv-center">
+                                <input class="adv-input" type="text" name="as_q">
+                            </div>
+                            <div class="adv-right">
+                                Type the important words: 
+                                <span> tri-colour rat terrier</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="adv-left">
+                                this exact word or phrase:
+                            </div>
+                            <div class="adv-center">
+                                <input class="adv-input" type="text" name="as_epq">
+                            </div>
+                            <div class="adv-right">
+                                Put exact words in quotes: 
+                                <span> "rat terrier"</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="adv-left">
+                                any of these words:
+                            </div>
+                            <div class="adv-center">
+                                <input class="adv-input" type="text" name="as_oq">
+                            </div>
+                            <div class="adv-right">
+                                Type OR between all the words you want: 
+                                <span> miniature OR standard</span>
+                            </div>
+                        </div>
+                        <div class="row">  
+                            <div class="adv-left">
+                                none of these words:
+                            </div>
+                            <div class="adv-center">
+                                <input class="adv-input" type="text" name="as_eq">
+                            </div>
+                            <div class="adv-right">
+                                Put a minus sign just before words that you don't want: 
+                                <span> -rodent, -"Jack Russell"</span>
+                            </div>                               
+                        </div>
+                        <div class="row"> 
+                            <div class="adv-left">                                
+                            </div>    
+                            <div class="adv-div-btn">
+                                <input id="adv-btn" type="submit" value="Advanced Search">
+                            </div>
 
-                </form>
+                        </div>
+    
+
+                    </form>
+                </div>
 
     </body>
 </html>
